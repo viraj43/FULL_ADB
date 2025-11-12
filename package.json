@@ -1,0 +1,37 @@
+{
+  "name": "adb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@yume-chan/adb": "file:../ya-webadb/libraries/adb",
+    "@yume-chan/adb-daemon": "file:../ya-webadb/libraries/adb-daemon",
+    "@yume-chan/adb-daemon-webusb": "file:../ya-webadb/libraries/adb-daemon-webusb",
+    "@yume-chan/adb-scrcpy": "file:../ya-webadb/libraries/adb-scrcpy",
+    "@yume-chan/adb-credential-web": "file:../ya-webadb/libraries/adb-credential-web",
+    "@yume-chan/scrcpy-decoder-tinyh264": "file:../ya-webadb/libraries/scrcpy-decoder-tinyh264",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/w3c-web-usb": "^1.0.10",
+    "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.3",
+    "vite": "^7.2.2"
+  }
+}

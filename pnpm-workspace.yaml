@@ -1,0 +1,2 @@
+overrides:
+  '@tango-adb/monorepo': link:../ya-webadb
